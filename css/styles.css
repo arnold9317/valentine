@@ -1,0 +1,53 @@
+body {
+    background-color: #F2CFEE;
+    padding-top: 50px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgDiv {
+    width: 275px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.catImg {
+    width: 100%;
+    border-radius: 1px;
+}
+
+.frame {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid rgb(29, 29, 29);
+    padding: 25px 0 25px 0;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.182);
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.whBtn {
+    background-color: white;
+    border: 2px solid rgb(25, 25, 25);
+    width: 100px;
+    height: 30px;
+}
+.whBtn:hover {
+    background-color: pink;
+}
+
+.no::before {
+    content: "No";
+}
+
+.no:hover::before {
+    content: "Yes!";
+}
+
